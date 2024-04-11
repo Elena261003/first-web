@@ -21,4 +21,25 @@ ul {
 body {
     margin: 0;
     font-family: sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
+    width: 375px;
+
+}
+
+.header {
+    background-image: url(../assets/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 124px;
+
+}
+
+.logo-c {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 64px;
+
 }
