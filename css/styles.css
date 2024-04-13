@@ -216,8 +216,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 311px
+    width: 311px;
+    
 }
+@media screen and (min-width: 768px) {
+    .clipboard {
+        display: flex;
+        flex-direction: column;
+        width: 1110px;
+        height: 216px;
+        position: relative;
+       bottom: 80px;
+    }
+}
+
 
 .posibilities {
     display: flex;
@@ -238,3 +250,124 @@ body {
         right: 400px;
     }
 }
+
+.workflow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;
+}
+.blacklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;
+}
+@media screen and (min-width: 768px) {
+    .blacklist {
+        
+        width: 350px;
+       
+        
+    }
+}
+
+.snippets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;
+}
+@media screen and (min-width: 768px) {
+    .snippets{
+        
+        width: 350px;
+       
+        
+    }
+}
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;
+}
+@media screen and (min-width: 768px) {
+    .preview{
+        width: 350px;    
+    }
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;  
+}
+@media screen and (min-width: 768px) {
+    .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1110px; 
+    position: relative;
+    top: 150px; 
+    left: 250px;
+    padding: 32px;
+    }
+}
+
+.logo{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 311px;  
+    padding: 64px;
+    
+}
+@media screen and (min-width: 768px) {
+    .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1110px; 
+    position: relative;
+    top: 64px; 
+    left: 10px;
+    
+    }
+}
+
+.logo--google{
+    padding: 32px;
+}
+.logo--ibm{
+    padding: 32px;
+}
+.logo--microsoft{
+    padding: 32px;
+}
+.logo--hp{
+    padding: 32px;
+}
+.vector-graphics{
+    pa
+}
+
+
